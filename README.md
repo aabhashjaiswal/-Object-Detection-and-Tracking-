@@ -47,7 +47,6 @@ python object_detection_gui.py
 
 - Click Stop Detection or close the windows to exit.
 
-**Sample Output:**
 ## Sample Output
 
 When you run the program, a GUI window opens and your webcam feed appears with:
