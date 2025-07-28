@@ -58,31 +58,5 @@ When you run the program, a GUI window opens and your webcam feed appears with:
 - A console log might show detection counts or status messages (optional)
 
 
-Troubleshooting
-Module not found errors: Make sure all dependencies are installed via pip.
-
-Corrupted model file: Delete and re-download yolov8n.pt.
-
-Camera issues: Check webcam connection and close other applications using it.
-
-Performance: Running on CPU may be slow; GPU usage can improve speed.
-
-References
-Ultralytics YOLOv8
-
-SORT Tracker
-
-OpenCV
-
-Tkinter
-
-Future Improvements
-Support video file input
-
-Add more advanced tracking algorithms (e.g., Deep SORT)
-
-Enhance GUI controls and features
-
-GPU acceleration support
-
-Add logging and analytics
+## ✅ Developed by:
+  **Aabhash Jaiswal**
