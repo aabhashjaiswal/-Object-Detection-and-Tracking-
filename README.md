@@ -25,24 +25,14 @@ Object-Detection-Tracking/
 └── requirements.txt   # Python dependencies (optional)
 ```
 
-
-## Installation and Setup
-
-### Prerequisites
-- Python 3.8 or higher
-- Webcam connected to your system
-
-### Install dependencies
-```bash
-pip install ultralytics opencv-python numpy scikit-image filterpy
-
-How to Run
-Open terminal or command prompt and navigate to the project folder:
-
+## How to Run
+1. ** Open terminal or command prompt and navigate to the project folder: **
+```
 bash
 Copy
 Edit
 cd "path_to_your_project_folder"
+```
 Run the GUI application:
 
 bash
