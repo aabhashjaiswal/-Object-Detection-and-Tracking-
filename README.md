@@ -29,7 +29,6 @@ Object-Detection-Tracking/
 ├── sort.py   #SORT tracking algorithm implementation
 ├── yolov8n.pt   #Pre-trained YOLOv8 weights file
 ├── README.md   # This documentation file
-└── requirements.txt   # Python dependencies (optional)
 ```
 
 ## 🚀 How to Run:
