@@ -15,6 +15,7 @@ Build a real-time object detection and tracking system with a simple graphical u
 - Clean exit and resource release
 
 ## Folder Structure
+```
 Object-Detection-Tracking/
 │
 ├── object_detection_gui.py # Main Python script with GUI and detection logic
@@ -22,7 +23,7 @@ Object-Detection-Tracking/
 ├── yolov8n.pt # Pre-trained YOLOv8 weights file
 ├── README.md # This documentation file
 └── requirements.txt # Python dependencies (optional)
-
+```
 
 
 ## Installation and Setup
