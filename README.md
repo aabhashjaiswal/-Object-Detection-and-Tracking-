@@ -25,9 +25,9 @@ Build a real-time object detection and tracking system with a simple graphical u
 ```
 Object-Detection-Tracking/
 │
-├── object_detection_gui.py   #Main Python script with GUI and detection logic
-├── sort.py   #SORT tracking algorithm implementation
-├── yolov8n.pt   #Pre-trained YOLOv8 weights file
+├── object_detection_gui.py   # Main Python script with GUI and detection logic
+├── sort.py   # SORT tracking algorithm implementation
+├── yolov8n.pt   # Pre-trained YOLOv8 weights file
 ├── README.md   # This documentation file
 ```
 
