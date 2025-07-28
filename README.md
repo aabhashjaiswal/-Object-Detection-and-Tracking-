@@ -56,6 +56,21 @@ When you run the program, a GUI window opens and your webcam feed appears with:
 - Real-time tracking as objects move across frames, with IDs remaining consistent
 - A console log might show detection counts or status messages (optional)
 
+[INFO] Loading YOLOv8 model...
+[INFO] Webcam initialized
+[INFO] Detection started...
+Frame 1: Detected 3 objects
+ → person assigned ID 1
+ → car assigned ID 2
+ → dog assigned ID 3
+
+Frame 2: 3 objects tracked
+ → person ID 1
+ → car ID 2
+ → dog ID 3
+
+[INFO] Detection stopped. Resources released.
+
 
 ## ✅ Developed by:
   **Aabhash Jaiswal**
