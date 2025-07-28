@@ -3,8 +3,15 @@
 ## Objective
 Build a real-time object detection and tracking system with a simple graphical user interface (GUI) that uses a webcam to detect objects with YOLOv8 and track them uniquely using the SORT algorithm.
 
-## Language
-- Python 3.x
+## 🧑‍💻 Language & Libraries
+
+- **Language**: Python 3.8+
+- **Libraries**:
+  - OpenCV
+  - Ultralytics (YOLOv8)
+  - NumPy
+  - FilterPy (for SORT)
+  - Tkinter (GUI)
 
 ## Features
 - Real-time object detection from webcam feed
@@ -28,14 +35,10 @@ Object-Detection-Tracking/
 ## How to Run
 1. **Open terminal or command prompt and navigate to the project folder:**
 ```bash
-Copy
-Edit
 cd "path_to_your_project_folder"
 ```
 2. **Run the GUI application:**
 ```bash
-Copy
-Edit
 python object_detection_gui.py
 ```
 3. **Use the GUI:**
@@ -45,13 +48,15 @@ python object_detection_gui.py
 - Click Stop Detection or close the windows to exit.
 
 **Sample Output:**
-When running, a window displays the webcam video with:
+## Sample Output
 
-Green bounding boxes around detected objects
+When you run the program, a GUI window opens and your webcam feed appears with:
 
-Labels showing unique tracking IDs (e.g., "ID 1", "ID 2")
+- Green bounding boxes drawn around detected objects
+- Labels on each bounding box indicating the object class and a unique tracking ID, e.g., "person ID 1"
+- Real-time tracking as objects move across frames, with IDs remaining consistent
+- A console log might show detection counts or status messages (optional)
 
-Smooth real-time tracking as objects move
 
 Troubleshooting
 Module not found errors: Make sure all dependencies are installed via pip.
