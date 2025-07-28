@@ -26,26 +26,25 @@ Object-Detection-Tracking/
 ```
 
 ## How to Run
-1. ** Open terminal or command prompt and navigate to the project folder: **
-```
-bash
+1. **Open terminal or command prompt and navigate to the project folder:**
+```bash
 Copy
 Edit
 cd "path_to_your_project_folder"
 ```
-Run the GUI application:
-
-bash
+2. **Run the GUI application:**
+```bash
 Copy
 Edit
 python object_detection_gui.py
-Use the GUI:
+```
+3. **Use the GUI:**
 
-Click Start Detection to begin real-time detection and tracking.
+- Click Start Detection to begin real-time detection and tracking.
 
-Click Stop Detection or close the windows to exit.
+- Click Stop Detection or close the windows to exit.
 
-Sample Output
+**Sample Output:**
 When running, a window displays the webcam video with:
 
 Green bounding boxes around detected objects
