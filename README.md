@@ -1,9 +1,9 @@
 # Object-Detection-and-Tracking-
 
-## Objective
+## Objective:
 Build a real-time object detection and tracking system with a simple graphical user interface (GUI) that uses a webcam to detect objects with YOLOv8 and track them uniquely using the SORT algorithm.
 
-## 🧑‍💻 Language & Libraries
+## 🧑‍💻 Language & Libraries:
 
 - **Language**: Python 3.8+
 - **Libraries**:
@@ -13,7 +13,7 @@ Build a real-time object detection and tracking system with a simple graphical u
   - FilterPy (for SORT)
   - Tkinter (GUI)
 
-## Features
+## Features:
 - Real-time object detection from webcam feed
 - Object tracking with unique IDs using SORT algorithm
 - Bounding boxes and tracking labels displayed on detected objects
@@ -21,7 +21,7 @@ Build a real-time object detection and tracking system with a simple graphical u
 - Uses pre-trained YOLOv8 nano model (`yolov8n.pt`)
 - Clean exit and resource release
 
-## Folder Structure
+## Folder Structure:
 ```
 Object-Detection-Tracking/
 │
@@ -32,7 +32,7 @@ Object-Detection-Tracking/
 └── requirements.txt   # Python dependencies (optional)
 ```
 
-## How to Run
+## How to Run:
 1. **Open terminal or command prompt and navigate to the project folder:**
 ```bash
 cd "path_to_your_project_folder"
@@ -47,7 +47,7 @@ python object_detection_gui.py
 
 - Click Stop Detection or close the windows to exit.
 
-## Sample Output
+## Sample Output:
 
 When you run the program, a GUI window opens and your webcam feed appears with:
 
@@ -55,6 +55,13 @@ When you run the program, a GUI window opens and your webcam feed appears with:
 - Labels on each bounding box indicating the object class and a unique tracking ID, e.g., "person ID 1"
 - Real-time tracking as objects move across frames, with IDs remaining consistent
 - A console log might show detection counts or status messages (optional)
+
+## ❌ Troubleshooting
+- **Model error:** Re-download yolov8n.pt if corrupted
+
+- **No webcam:** Ensure webcam is connected and accessible
+
+- **Missing modules:** Run pip install -r requirements.txt
 
 ## ✅ Developed by:
   **Aabhash Jaiswal**
